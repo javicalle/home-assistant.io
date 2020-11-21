@@ -71,7 +71,6 @@
 /developers/multiple_instances https://developers.home-assistant.io
 /developers/platform_example_light https://github.com/home-assistant/example-custom-config/tree/master/custom_components/example_light
 /developers/platform_example_sensor https://github.com/home-assistant/example-custom-config/tree/master/custom_components/example_sensor
-/developers/python_api https://developers.home-assistant.io/docs/external_api_rest_python/
 /developers/releasing https://developers.home-assistant.io/docs/releasing/
 /developers/rest_api https://developers.home-assistant.io/docs/api/rest/
 /developers/server_sent_events https://developers.home-assistant.io/docs/external_api_server_sent_events/
@@ -94,7 +93,6 @@
 /components/alarm_control_panel.envisalink /integrations/envisalink
 /components/alarm_control_panel.homekit_controller /integrations/homekit_controller
 /components/alarm_control_panel.homematicip_cloud /integrations/homematicip_cloud
-/components/alarm_control_panel.ialarm /integrations/ialarm
 /components/alarm_control_panel.lupusec /integrations/lupusec
 /components/alarm_control_panel.manual /integrations/manual
 /components/alarm_control_panel.manual_mqtt /integrations/manual_mqtt
@@ -223,7 +221,7 @@
 /components/camera.doorbird /integrations/doorbird#camera
 /components/camera.familyhub /integrations/familyhub
 /components/camera.foscam /integrations/foscam
-/components/camera.generic /integrations/generic_ip_camera
+/components/camera.generic /integrations/generic
 /components/camera.local_file /integrations/local_file
 /components/camera.logi_circle /integrations/logi_circle#camera
 /components/camera.mjpeg /integrations/mjpeg
@@ -386,7 +384,7 @@
 /components/fan.wink /integrations/wink#fan
 /components/fan.zha /integrations/zha
 /components/fan.zwave /integrations/zwave
-/components/generic /integrations/generic_ip_camera
+/components/generic /integrations/generic
 /components/geo_location.geo_json_events /integrations/geo_json_events
 /components/geo_location.nsw_rural_fire_service_feed /integrations/nsw_rural_fire_service_feed
 /components/geo_location.usgs_earthquakes_feed /integrations/usgs_earthquakes_feed
@@ -655,7 +653,6 @@
 /components/sensor.bme280 /integrations/bme280
 /components/sensor.bme680 /integrations/bme680
 /components/sensor.bmw_connected_drive /integrations/bmw_connected_drive
-/components/sensor.bom /integrations/bom#sensor
 /components/sensor.broadlink /integrations/broadlink#sensor
 /components/sensor.brottsplatskartan /integrations/brottsplatskartan
 /components/sensor.canary /integrations/canary#sensor
@@ -880,7 +877,6 @@
 /components/sensor.tautulli /integrations/tautulli
 /components/sensor.tcp /integrations/tcp#sensor
 /components/sensor.ted5000 /integrations/ted5000
-/components/sensor.teksavvy /integrations/teksavvy
 /components/sensor.tellduslive /integrations/tellduslive
 /components/sensor.tellstick /integrations/tellstick#sensor
 /components/sensor.temper /integrations/temper
@@ -1068,7 +1064,6 @@
 /components/vlc-telnet /integrations/vlc_telnet
 /components/water_heater.econet /integrations/econet
 /components/water_heater.wink /integrations/wink#water-heater
-/components/weather.bom /integrations/bom
 /components/weather.buienradar /integrations/buienradar
 /components/weather.ecobee /integrations/ecobee
 /components/weather.ipma /integrations/ipma
@@ -1177,7 +1172,6 @@
 /components/bme280 /integrations/bme280
 /components/bme680 /integrations/bme680
 /components/bmw_connected_drive /integrations/bmw_connected_drive
-/components/bom /integrations/bom
 /components/braviatv /integrations/braviatv
 /components/broadcast /integrations/telegram_broadcast
 /components/broadlink /integrations/broadlink
@@ -1373,7 +1367,7 @@
 /components/garadget /integrations/garadget
 /components/gc100 /integrations/gc100
 /components/geizhals /integrations/geizhals
-/components/generic_ip_camera /integrations/generic_ip_camera
+/components/generic_ip_camera /integrations/generic
 /components/generic_thermostat /integrations/generic_thermostat
 /components/geniushub /integrations/geniushub
 /components/geo_json_events /integrations/geo_json_events
@@ -1440,7 +1434,6 @@
 /components/hunterdouglas_powerview /integrations/hunterdouglas_powerview
 /components/hydrawise /integrations/hydrawise
 /components/hyperion /integrations/hyperion
-/components/ialarm /integrations/ialarm
 /components/iaqualink /integrations/iaqualink
 /components/icloud /integrations/icloud
 /components/idteck_prox /integrations/idteck_prox
@@ -1875,7 +1868,6 @@
 /components/tautulli /integrations/tautulli
 /components/tcp /integrations/tcp
 /components/ted5000 /integrations/ted5000
-/components/teksavvy /integrations/teksavvy
 /components/telegram /integrations/telegram
 /components/telegram_bot /integrations/telegram_bot
 /components/tellduslive /integrations/tellduslive
@@ -2026,6 +2018,7 @@
 # Breaking changes
 /integrations/switch.pca /integrations/elv
 /integrations/synologydsm /integrations/synology_dsm
+/integrations/generic_ip_camera /integrations/generic
 /integrations/telegram_chatbot /integrations/telegram_bot
 
 # Moved documentation
@@ -2103,6 +2096,7 @@
 /getting-started/z-wave-installation /docs/z-wave/installation
 /getting-started/z-wave-panel /docs/z-wave/control-panel
 /getting-started/z-wave-device-specific /docs/z-wave/device-specific
+/hassio/zwave /docs/z-wave
 /topics/events /docs/configuration/events
 /topics/packages /docs/configuration/packages
 /topics/platform_options /docs/configuration/platform_options

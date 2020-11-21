@@ -16,7 +16,7 @@ Welcome to another great release of Home Assistant! While some of contributors a
 First thing for this release is a feature that has been requested a lot: an automation editor! It's still experimental - and many things are still in progress - but it works! You can create new automations and edit existing ones. If you start a new config, you're all good to go. Otherwise check [these instructions](/docs/automation/editor/) to get your automations ready for editing in the UI.
 
 <p class='img'>
-  <img src='{{site_root}}/images/blog/2017-05-0.45/trigger.png' />
+  <img src='/images/blog/2017-05-0.45/trigger.png' />
 </p>
 
 Check this [video](https://youtu.be/0j_hWdCTip4) by [Ben](https://twitter.com/BRUHautomation) from [BRUHautomation](http://www.bruhautomation.com/) to see the new release in action.
@@ -30,7 +30,7 @@ As the editor is experimental, there are some limitations. These include that Ch
 On the Z-Wave front a lot has happened. The biggest one is that we have a major extension of the Z-Wave panel thanks to [@turbokongen]! You will now be able to change config parameters and manage your devices.
 
 <p class='img'>
-  <img src='{{site_root}}/images/blog/2017-05-0.45/zwave.png' />
+  <img src='/images/blog/2017-05-0.45/zwave.png' />
 </p>
 Thanks to the work by the Python Open Z-Wave team we are now able to install it on demand from PyPi! There is no longer a need to pre-compile it yourself. This should give us the guarantee that we work with the Python Open Z-Wave version that the code expects.
 
@@ -45,7 +45,7 @@ Next to that [@armills] has lead the charge and managed to get full test coverag
 This release also contains two integrations which could help you to make non-smart devices a little smarter. The [`file` sensor][sensor.file docs] and the [`seven_segments` OCR image processing platform][image_processing.seven_segments docs]. The first simply reads a plain-text file which was created by a logger or alike. The latter one extracts the value from a captured image that shows a seven-segments display.
 
 <p class='img'>
-  <img src='{{site_root}}/images/blog/2017-05-0.45/power-meter.png' />
+  <img src='/images/blog/2017-05-0.45/power-meter.png' />
 </p>
 
 And last, but not least, our Docker image is now based off Python 3.6. This version is faster and uses less memory than Python 3.5. Win!
@@ -183,7 +183,7 @@ Experiencing issues introduced by this release? Please report them in our [issue
 - Add support for disabling tradfri groups ([@cnrd] - [#7593]) ([tradfri docs]) ([light.tradfri docs])
 - Update docstrings and comments ([@fabaff] - [#7626]) ([image_processing.openalpr_cloud docs]) ([image_processing.openalpr_local docs])
 - Upgrade Sphinx to 1.6.1 ([@fabaff] - [#7624])
-- Update docstrings ([@fabaff] - [#7630]) ([image_processing.demo docs]) ([image_processing.dlib_face_detect docs]) ([image_processing.dlib_face_identify docs]) ([image_processing.microsoft_face_detect docs]) ([image_processing.microsoft_face_identify docs]) ([image_processing.opencv docs])
+- Update docstrings ([@fabaff] - [#7630]) ([image_processing docs]) ([image_processing.dlib_face_detect docs]) ([image_processing.dlib_face_identify docs]) ([image_processing.microsoft_face_detect docs]) ([image_processing.microsoft_face_identify docs]) ([image_processing.opencv docs])
 - Kodi specific service to call Kodi API methods ([@azogue] - [#7603]) ([media_player.kodi docs])
 - Updated limitlessled requirement to v1.0.8 ([@corneyl] - [#7629])
 - Osram lightify Removed wrong assignment ([@commento] - [#7615]) ([light.osramlightify docs])
@@ -358,7 +358,6 @@ Experiencing issues introduced by this release? Please report them in our [issue
 [eight_sleep docs]: /integrations/eight_sleep/
 [homematic docs]: /integrations/homematic/
 [image_processing docs]: /integrations/image_processing
-[image_processing.demo docs]: /integrations/image_processing.demo/
 [image_processing.dlib_face_detect docs]: /integrations/dlib_face_detect
 [image_processing.dlib_face_identify docs]: /integrations/dlib_face_identify
 [image_processing.microsoft_face_detect docs]: /integrations/microsoft_face_detect
